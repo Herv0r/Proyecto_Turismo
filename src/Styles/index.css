@@ -1,0 +1,57 @@
+/* Cración de fuentes locales*/
+
+/* TITULOS */
+/* Para H1, H2 */
+@font-face {
+    font-family: "Raleway_b";
+    src: url("../Fonts/Raleway-Bold.ttf") format('truetype');
+  }
+  
+  /* Para H3, H4, H5 */
+  @font-face {
+    font-family: "Raleway_sb";
+    src: url("../Fonts/Raleway-SemiBold.ttf") format('truetype');
+  }
+  
+  /* Para H6 */
+  @font-face {
+    font-family: "Raleway_m";
+    src: url("../Fonts/Raleway-Medium.ttf") format('truetype');
+  }
+  
+  /* CUERPO */
+  /* Body */
+  @font-face {
+    font-family: "Nunito_m";
+    src: url("../Fonts/Nunito-Medium.ttf") format('truetype');
+  }
+  
+  /* Caption */
+  @font-face {
+    font-family: "Nunito_r";
+    src: url("../Fonts/Nunito-Regular.ttf") format('truetype');
+  }
+  
+  
+  
+  /* Asignación de fuentes predeterminadas*/ 
+  
+  h1, h2 {
+    font-family: 'Raleway_b';
+  }
+  
+  h3, h4, h5 {
+      font-family: "Raleway_sb";
+  }
+  
+  h6 {
+    font-family: "Raleway_m";
+  }
+  
+  p {
+    font-family: "Nunito_m";
+  }
+  
+  caption {
+    font-family: "Nunito_r";
+  }
